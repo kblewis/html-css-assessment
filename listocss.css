@@ -1,0 +1,87 @@
+body {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.name {
+	width: 100%;
+	display: block;
+	background-color: black;
+	color: gray;
+	text-align: left;
+	position: absolute;
+	font-size: 24px;
+	font-family: Helvetica, sans-serif;
+	clear: both;
+	float: left;
+	padding-left: 25px;
+}
+
+.box {
+	width: 300px;
+	height: auto;
+	clear: both;
+	float: left;
+	left: 10px;
+	margin: 15px;
+	position: relative;
+	top: 25px;
+	padding-left: 10px;
+}
+
+.pink {
+	outline: 2px solid pink;
+}
+
+.yellow {
+	outline: 2px solid yellow;
+}
+
+.green {
+	outline: 2px solid green;
+}
+
+.gray {
+	outline: 2px solid gray;
+}
+
+.title {
+	width: 300px;
+	position: relative;
+	top: 0px;
+	text-align: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	float: left;
+}
+
+.pink1 {
+	background-color: pink;
+}
+
+.yellow1 {
+	background-color: yellow;
+}
+
+.green1 {
+	background-color: green;
+}
+
+.gray1 {
+	background-color: gray;
+}
+
+p {
+	outline: 2px solid gray;
+	float: left;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	width: 90%;
+}
+
+span {
+	float: right;
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+	color: blue;
+}
